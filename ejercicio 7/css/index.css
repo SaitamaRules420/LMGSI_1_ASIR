@@ -1,12 +1,45 @@
-body {font-family: 'Courier New', Courier, monospace;}
-#parrafo1 {background-color: grey;}
-.especial {color: blue;}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+#parrafo1 {
+  background-color: grey;
+}
+.especial {
+  color: blue;
+}
 
-h2 {border-style: solid; border-color: orange; border-style: 1px;}
-h3 {border-style: solid; border-color: orange; border-style: 1px;}
+h2 {
+  border-style: solid;
+  border-color: orange;
+  border-style: 1px;
+}
+h3 {
+  border-style: solid;
+  border-color: orange;
+  border-style: 1px;
+}
 
-ul {color: red;}
-ul ul {color: green;}
+ul {
+  color: red;
+}
+ul ul {
+  color: green;
+}
 
-.Antes {background-color: pink;}
-.Despues {background-color: blue;}
+.Antes {
+  background-color: pink;
+}
+.Despues {
+  background-color: blue;
+}
+
+p > img {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+img[Alt="Segunda"] {
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}

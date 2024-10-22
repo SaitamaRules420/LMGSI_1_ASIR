@@ -1,15 +1,60 @@
-h1{color: #333 ; size: 20px;}
-h2{color: #666; size: 16px;}
-p{color: #000; size: 16px;}
+h1 {
+  color: #333;
+  size: 20px;
+}
+h2 {
+  color: #666;
+  size: 16px;
+}
+p {
+  color: #000;
+  size: 16px;
+}
 
-table{border-style: solid; border-color: black; border-width: 1px; border-collapse: collapse;}
-caption{color: #000; size: 14px;}
-th{color: white; size: 16px; border-style: solid; border-color: black; border-width: 1px; padding: 10px; background-color: #666; border-collapse: collapse;}
-td{color: #000; size: 16px; background-color: #fff; border-style: solid; border-color: black; border-width: 1px; padding: 10px; border-collapse: collapse;}
-tfoot{color: #000; size: 16px; background-color: #ccc;}
-#footergris{background-color: #ccc;}
+table {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+caption {
+  color: #000;
+  size: 14px;
+}
+th {
+  color: white;
+  size: 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px;
+  background-color: #666;
+  border-collapse: collapse;
+}
+td {
+  color: #000;
+  size: 16px;
+  background-color: #fff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+tfoot {
+  color: #000;
+  size: 16px;
+  background-color: #ccc;
+}
+#footergris {
+  background-color: #ccc;
+}
 
-a{color: blue; size: 16px;}
-li{color: #000; size: 16px;}
-
-
+a {
+  color: blue;
+  size: 16px;
+}
+li {
+  color: #000;
+  size: 16px;
+}

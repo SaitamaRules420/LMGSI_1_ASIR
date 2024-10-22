@@ -1,7 +1,22 @@
-body{background-color: white;}
-h2{text-align: center; color: blue;}
-#Trabajador2{color: green;}
-#Datos{border: solid 2px;}
-#Estudios{border: double 9px;}
-#Fondo{background-color: grey;}
-#colorrojo{color: red;}
+body {
+  background-color: white;
+}
+h2 {
+  text-align: center;
+  color: blue;
+}
+#Trabajador2 {
+  color: green;
+}
+#Datos {
+  border: solid 2px;
+}
+#Estudios {
+  border: double 9px;
+}
+#Fondo {
+  background-color: grey;
+}
+#colorrojo {
+  color: red;
+}

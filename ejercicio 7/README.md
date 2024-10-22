@@ -1,4 +1,5 @@
 **Realiza la web que se muestra en la imagen de abajo teniendo en cuenta las siguientes restricciones del css.**  
+  
 ● Todos los elementos tendrán la fuente “Courier New, Courier, monospace.  
 ● El primer párrafo deberá de tener un identificador y su color de fondo será gris.  
 ● Hay dos tipos de h1: normal y especial. Los h1 especial deberán de pertenecer a la clase “especial” y su color será azul.  
