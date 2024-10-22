@@ -1,0 +1,5 @@
+body{background-color: #267352; font-family: sans-serif; font-size: 1.25rem;}
+h1{color: white; text-align: left; text-shadow: 5px 5px black; text-transform: uppercase;}
+p{text-align: justify;}
+p.intro{border-style: solid; border: 10px black;}
+p.estilo-1{border-style: solid; border-radius: 20px 0px 0px 20px; ;}
