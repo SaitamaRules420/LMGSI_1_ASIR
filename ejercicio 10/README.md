@@ -1,4 +1,4 @@
-Etiquetas  
+**Etiquetas**  
 ● Una etiqueta de sección <h1> para el título.  
 ● Varias etiquetas de párrafo <p>, una para cada cita.  
 ● El nombre del escritor en el primer párrafo lleva la etiqueta <strong>.  
