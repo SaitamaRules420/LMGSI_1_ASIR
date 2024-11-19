@@ -1,0 +1,51 @@
+form {
+    align-self: center;
+    font-size: 14px;
+    color: #6B121B;
+    border: 1px dotted #b8bfcb;
+    border-radius: 7px;
+    padding: 14px;
+}
+fieldset {
+    border: 1px dotted grey;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+legend {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+input {
+    background-color: white;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    outline: none;
+}
+
+
+textarea {
+    width: 450px;
+    height: 50px;
+    max-width: 493px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
