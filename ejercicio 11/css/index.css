@@ -11,5 +11,9 @@ h1 {
     text-transform: uppercase;
 }
 p {
-    
+    float: left;
+    width: 16rem;
+    height: 16rem;
+    overflow: auto;
+    border: 5px ;
 }
