@@ -1,10 +1,10 @@
 **Ejercicio 11**  
 
 **Etiquetas**  
-Las únicas etiquetas de bloque utilizadas son h1, p y div.  
+Las únicas etiquetas de bloque utilizadas son **h1**, **p** y **div**.  
 
 **Clases**  
-Cada cita tiene la letra inicial diferente al resto del párrafo. Se podría utilizar una etiqueta span con clase, pero puesto que se trata del primer carácter, se puede utilizar simplemente el pseudo-elemento ::rst-letter, que no requiere añadir nada al código fuente html.  
+Cada cita tiene la letra inicial diferente al resto del párrafo. Se podría utilizar una etiqueta **span** con clase, pero puesto que se trata del primer carácter, se puede utilizar simplemente el pseudo-elemento ::rst-letter, que no requiere añadir nada al código fuente html.  
 
 **Posicionamiento**  
 Los párrafos tienen forma cuadrada y tienen todos el mismo tamaño, independientemente del contenido, lo que se puede conseguir dando el mismo valor a las propiedades width y height.  
