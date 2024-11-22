@@ -1,29 +1,74 @@
 <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Ejercicio 12</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-  <link rel="stylesheet" href="css/index.css" />
-  <title>Ejercicio 12</title>
-  <meta charset="UTF-8" />
-</head>
+  <body>
+    <form action="/enviar-datos" method="post">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="input_nombre">Nombre: </label>
+        <input
+          type="text"
+          id="i_nombre"
+          name="input_nombre"
+          placeholder="Su nombre"
+        />
+        <br />
 
-<body>
-  <form action="/enviar-datos" method="post">
-    <fieldset>
-      <legend>Datos Personales</legend>
-      <label for="nombre">Nombre:</label>
-      <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        placeholder="Su nombre"
-      /><br />
-      <label for="email">Correo Electrónico:</label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="nombre@servidor.com"
-      />
-    </fieldset>
-  </form>
-</body>
+        <label for="input_email">Correo electrónico: </label>
+        <input
+          type="email"
+          id="i_email"
+          name="input_email"
+          placeholder="nombre@servidor.com"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Datos del proyecto</legend>
+
+        <label for="input_descripcion">Breve descripcion del proyecto: </label
+        ><br />
+        <textarea name="input_descripcion" id="i_descripcion"></textarea><br />
+
+        <label for="input_estado">Estado actual del proyecto: </label><br />
+        <label
+          ><input
+            type="radio"
+            name="input_estado"
+            value="En planteamiento"
+            checked
+          />En planteamiento</label
+        >
+        <label
+          ><input type="radio" name="input_estado" value="En planificación" />En
+          planificación</label
+        >
+        <label
+          ><input type="radio" name="input_estado" value="En ejecución" />En
+          ejecución</label
+        >
+        <label
+          ><input type="radio" name="input_estado" value="Ya finalizado" />Ya
+          finalizado</label
+        >
+        <br />
+
+        <label for="input_euros">Presupuesto aproximado (en €):</label>
+        <input
+          class="euros"
+          type="text"
+          id="i_euros"
+          name="input_euros"
+          placeholder="1000"
+        />
+      </fieldset>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
