@@ -58,8 +58,8 @@
 ○ Padding inferior: 3px  
 ○ Padding izquierda: 10px
 
-● Campos requeridos:
-○ Color de borde: #4AA248
+● Campos requeridos:  
+○ Color de borde: #4AA248  
 ○ Sombra estilo halo con un difuminado de 3px de color #4AA248
 
 ● Campos inválidos:  
