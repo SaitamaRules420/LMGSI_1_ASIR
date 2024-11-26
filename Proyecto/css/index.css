@@ -1,0 +1,66 @@
+@font-face {
+  font-family: fuente_Roboto;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+.fotoencabezado1 {
+  border: 1px, solid, black;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.encabezado {
+  border-radius: 0.5rem;
+}
+header {
+  color: black;
+  background-color: rgba(255, 68, 0, 0.85);
+  font-family: fuente_Roboto;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  border: 0.25rem, solid, black;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+h1 {
+}
+.fotoencabezado2 {
+  border: 1px, solid, black;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: fuente_Roboto;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+nav ul {
+  color: black;
+  list-style-type: none;
+  background-color: rgba(255, 68, 0, 0.85);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  font-size: 20px;
+  justify-self: center;
+  border: 0.25rem, solid, black;
+  border-radius: 0.5rem;
+}
+nav ul li {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer {
+  border: 0.25rem, solid, black;
+  font-family: fuente_Roboto;
+  background-color: rgba(255, 68, 0, 0.85);
+  color: black;
+}
