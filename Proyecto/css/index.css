@@ -62,4 +62,26 @@ footer {
   font-family: fuente_Roboto;
   background-color: rgba(255, 68, 0, 0.85);
   color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+footer img {
+  width: 30%;
+}
+.logos {
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.direccion {
+  margin: 1rem;
+}
+.copy {
+  margin: 1rem;
+  text-align: end;
+  font-style: italic;
 }
