@@ -33,7 +33,7 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: fuente_Roboto;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.600);
 }
 nav ul {
   color: black;
@@ -72,19 +72,32 @@ footer img {
 }
 .logos {
   width: 7%;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .logos p {
   margin-left: 0.5rem;
 }
+.logos a {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border: 0.25rem, solid, black;
+  border-radius: 0.5rem;
+}
 .logostexto {
   display: flex;
+  justify-content: space-around;
 }
 .direccion {
-  margin: 1rem;
+  margin: 0.5rem;
+  display: flex;
+}
+.direccion iframe {
+  border-radius: 0.5rem;
+}
+.direccion p {
+  display: initial;
 }
 .copy {
   margin: 1rem;
-  text-align: end;
   font-style: italic;
 }
