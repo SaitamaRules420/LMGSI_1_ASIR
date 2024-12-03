@@ -56,6 +56,39 @@ a {
   color: black;
   font-weight: bold;
 }
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.motivos {
+  border: 0.25rem, solid, black;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(255, 68, 0, 0.75);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.motivos h1 {
+  text-align: center;
+  margin: 1rem;
+}
+.motivos p {
+  text-align: center;
+  margin: 0.5rem;
+}
+.motivos img {
+  width: 20rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.motivos audio {
+padding: 1rem;
+}
 footer {
   border: 0.25rem, solid, black;
   border-radius: 1rem;
@@ -67,6 +100,7 @@ footer {
   align-items: flex-end;
   position: fixed;
   width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 footer img {
   width: 30%;
@@ -117,4 +151,96 @@ footer a img {
 .copy {
   margin: 1rem;
   font-style: italic;
+}
+form {
+  justify-content: center;
+  font-size: 14px;
+  color: black;
+  border: 0.25rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 68, 0, 0.75);
+  margin: 1rem;
+}
+fieldset {
+  border: 0.25rem solid black;
+  border-radius: 1rem;
+  margin-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+legend {
+  color: black;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+input {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+input:focus {
+  outline: none;
+}
+input[type="submit"] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgba(255, 68, 0, 0.85);
+  background-color: black;
+  font-size: 14px;
+}
+input[type="submit"]:hover {
+  background-color: #5376b2;
+}
+
+input:required {
+  border-color: #4aa248;
+  box-shadow: 0px 0px 0px #4aa248;
+}
+input:invalid {
+  border-color: black;
+  box-shadow: 0px 0px 3px red;
+}
+fieldset:invalid {
+  border-color: black;
+  box-shadow: 0px 0px 3px red;
+}
+form:invalid {
+  border-color: black;
+  box-shadow: 0px 0px 3px red;
+}
+textarea {
+  width: 450px;
+  height: 50px;
+  max-width: 493px;
+  min-width: 300px;
+  max-height: 200px;
+  min-height: 50px;
+  margin-top: 3px;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.euros::placeholder {
+  color: black;
+}
+.consejo {
+  justify-content: center;
+}
+.footer2 {
+  height: auto;
+  justy
 }

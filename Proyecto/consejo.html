@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.7"
+    />
+    <title>Malas influencias</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/png" href="img/HondaICON.png" />
+  </head>
+  <header>
+    <img
+      class="fotoencabezado1"
+      src="img/MotoGP1.jpeg"
+      alt="Una tremenda moto haciéndose un vueltón en lo que parece el Circuit de Barcelona-Catalunya."
+      width="365px"
+      height="205px"
+    />
+    <div class="encabezado"><h1>¿Por qué deberías comprarte una moto?</h1></div>
+    <img
+      class="fotoencabezado2"
+      src="img/MotoGP2.jpg"
+      alt="Esta es de Marc Márquez haciendo de las suyas y tocando un poquito de rodilla. Fotón en verdad."
+      width="365px"
+      height="205px"
+    />
+  </header>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="consejo.html">Consejo</a></li>
+        <li><a href="CBR1000RR.html">CBR-1000RR</a></li>
+        <li><a href="CBR600RR.html">CBR-600RR</a></li>
+        <li><a href="CB1000R.html">CB-1000R</a></li>
+        <li><a href="CRF1100L.html">CRF-1100L</a></li>
+      </ul>
+    </nav>
+    <main class="consejo">
+      <form action="/enviar-datos" method="post">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="input_nombre">Nombre: </label>
+          <input
+            type="text"
+            id="i_nombre"
+            name="input_nombre"
+            placeholder="Su nombre"
+          />
+          <br />
+
+          <label for="input_email">Correo electrónico: </label>
+          <input
+            type="email"
+            id="i_email"
+            name="input_email"
+            placeholder="nombre@servidor.com"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Datos del proyecto</legend>
+
+          <label for="input_descripcion">Breve descripcion del proyecto: </label
+          ><br />
+          <textarea name="input_descripcion" id="i_descripcion"></textarea
+          ><br />
+
+          <label for="input_estado">Estado actual del proyecto: </label><br />
+          <label
+            ><input
+              type="radio"
+              name="input_estado"
+              value="En planteamiento"
+              checked
+            />En planteamiento</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="input_estado"
+              value="En planificación"
+            />En planificación</label
+          >
+          <label
+            ><input type="radio" name="input_estado" value="En ejecución" />En
+            ejecución</label
+          >
+          <label
+            ><input type="radio" name="input_estado" value="Ya finalizado" />Ya
+            finalizado</label
+          >
+          <br />
+
+          <label for="input_euros">Presupuesto aproximado (en €):</label>
+          <input
+            class="euros"
+            type="text"
+            id="i_euros"
+            name="input_euros"
+            placeholder="1000"
+          />
+        </fieldset>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer class="footer2">
+      <div class="logos">
+        <a class="logostexto" href="">
+          <img src="img/icon_youtube.svg" alt="" />
+          <p>Youtube</p>
+        </a>
+        <a class="logostexto" href="https://www.instagram.com/franeldemalaga/">
+          <img src="img/icon_instagram.svg" alt="" />
+          <p>Instagram</p>
+        </a>
+        <a class="logostexto" href="">
+          <img src="img/icon_bluesky.svg" alt="" />
+          <p>BlueSky</p>
+        </a>
+      </div>
+      <div class="direccion">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1732641338581!6m8!1m7!1sOnNAq_PfKJ7yTA9mqDNvAw!2m2!1d36.71032633431071!2d-6.033043457159613!3f326.7943048363547!4f-13.356220419285918!5f0.7820865974627469"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen="yes"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="direccionescrita">
+          <p>Carretera de Arcos - Jerez de la Frontera, Km 10</p>
+          <p>11405 Jerez de la Frontera</p>
+          <p>Teléfono: 956 151 100</p>
+        </div>
+      </div>
+      <div class="copy">
+        <p>&copy; 2024 L.M.S.G.I.</p>
+      </div>
+    </footer>
+  </body>
+</html>
