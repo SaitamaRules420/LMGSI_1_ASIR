@@ -98,9 +98,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  position: fixed;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  width: stretch;
 }
 footer img {
   width: 30%;
@@ -239,7 +237,4 @@ textarea {
 }
 .consejo {
   justify-content: center;
-}
-.footer2 {
-  height: auto;
 }
