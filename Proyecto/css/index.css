@@ -48,6 +48,12 @@ nav ul {
   border: 0.25rem, solid, black;
   border-radius: 0.5rem;
 }
+nav ul li:hover {
+  background-color: grey;
+  border: 0.25rem, solid, black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
 nav ul li {
   padding: 20px;
 }
@@ -87,7 +93,7 @@ main {
   margin: 1rem;
 }
 .motivos audio {
-padding: 1rem;
+  padding: 1rem;
 }
 footer {
   border: 0.25rem, solid, black;
@@ -104,7 +110,6 @@ footer img {
   width: 30%;
 }
 .logos {
-  /*width: 7%;*/
   margin: 3rem;
   display: flex;
   flex-direction: column;
@@ -122,6 +127,9 @@ footer a img {
   padding: 0.25rem;
   border: 0.25rem, solid, black;
   border-radius: 0.5rem;
+}
+.logos a:hover {
+  background-color: grey;
 }
 .logostexto {
   display: flex;
@@ -157,7 +165,7 @@ form {
   border: 0.25rem solid black;
   border-radius: 1rem;
   padding: 1rem;
-  background-color: rgba(255, 68, 0, 0.75);
+  background-color: grey;
   margin: 1rem;
 }
 fieldset {
@@ -195,26 +203,26 @@ input[type="submit"] {
   color: rgba(255, 68, 0, 0.85);
   background-color: black;
   font-size: 14px;
+  font-weight: bold;
 }
 input[type="submit"]:hover {
-  background-color: white;
+  background-color: rgba(255, 68, 0, 0.75);
+  color: black;
 }
-
 input:required {
-  border-color: #4aa248;
-  box-shadow: 0px 0px 0px #4aa248;
+  box-shadow: 0px 0px 0px red;
 }
 input:invalid {
-  border-color: black;
   box-shadow: 0px 0px 6px red;
 }
 fieldset:invalid {
-  border-color: black;
   box-shadow: 0px 0px 6px red;
 }
 form:invalid {
-  border-color: black;
   box-shadow: 0px 0px 6px red;
+}
+form:valid {
+  box-shadow: 0px 0px 6px green;
 }
 textarea {
   width: 450px;
@@ -233,8 +241,25 @@ textarea {
   padding-left: 10px;
 }
 .euros::placeholder {
-  color: black;
+  color: rgba(255, 0, 0, 0.5);
 }
 .consejo {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.confianza {
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 68, 0, 0.75);
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+.confianza ol{
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
 }
