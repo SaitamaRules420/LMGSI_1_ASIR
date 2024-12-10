@@ -9,6 +9,6 @@ necesitan ciertos datos en formato HTML. Los datos a incluir son:
 ● Comentarios.
 ● Etiquetas H1, H2 y H3.
 
-● Uso de <div> para agrupar los trabajadores y dentro otros <div> para agrupar los
+● Uso de *div* para agrupar los trabajadores y dentro otros <div> para agrupar los
 datos personales y estudios.
-● Uso de <pre> para alinear la información (no usar listas todavía)
+● Uso de *pre* para alinear la información (no usar listas todavía)
